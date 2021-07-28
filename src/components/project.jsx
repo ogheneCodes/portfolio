@@ -13,7 +13,7 @@ import { Link as ReactLink } from "react-router-dom";
 
 const Project = () => {
   return (
-    <Container width="lg">
+    <Container maxW="container.sm">
       <Box mt="8" mb="14">
         <Heading as="h1" mb="6" color="teal.400" textAlign="center">
           PROJECTS
@@ -24,7 +24,7 @@ const Project = () => {
           inventore rerum?
         </Text>
       </Box>
-      <Box pb="80">
+      <Box pb="40">
         <Box borderColor="blackAlpha.500" borderWidth="1px" mb="14">
           <Image src="./project1.png" w="100%" />
           <Box p="4">

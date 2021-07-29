@@ -10,8 +10,9 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
     <div>
       <header>
+        <Link href="/">&larr; Back to sixtus.dev</Link>
         <h1 className={styles.title}>
-          <Link href={blogRoot}>{siteMetadata.title}</Link>
+          {/* <Link href={blogRoot}>{siteMetadata.title}</Link> */}
         </h1>
         <Bio />
       </header>
@@ -34,8 +35,13 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
           {/* <a href="/blog/rss.xml" target="_blank" style={{ float: "right" }}>
             RSS
           </a> */}
-          <Link href="/blog/about">About</Link> &bull;{" "}
-          <Link href="/blog/tags">Tags</Link> &bull;{" "}
+          <Link href="/blog/about" className="blog-link">
+            About
+          </Link>{" "}
+          &bull;{" "}
+          <Link href="/blog/tags" className="blog-link">
+            Tags
+          </Link>
         </div>
       </footer>
     </div>

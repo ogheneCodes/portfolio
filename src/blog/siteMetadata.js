@@ -1,11 +1,10 @@
 const siteMetaData = {
   // The blog's title as it appears in the layout header, and in the document
   // <title> tag.
-  title: "npx create-react-blog",
+  title: "Sixtus Innocent",
 
-  author: "James K Nelson",
-  description:
-    "A clone of Dan Abramov's overreacted.io using create-react-app-mdx and Navi",
+  author: "Sixtus Innocent",
+  description: "",
 
   // The number of posts to a page on the site index.
   indexPageSize: 10,

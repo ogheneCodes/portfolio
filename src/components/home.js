@@ -1,4 +1,5 @@
 // Import Statements
+import React from "react";
 import { Box, Heading, Text, Image, Flex, Link, Icon } from "@chakra-ui/react";
 import { Link as ReactLink } from "react-router-dom";
 import {

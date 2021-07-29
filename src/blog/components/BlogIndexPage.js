@@ -31,12 +31,11 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
       )}
       <footer className={styles.footer}>
         <div>
-          <a href="/blog/rss.xml" target="_blank" style={{ float: "right" }}>
+          {/* <a href="/blog/rss.xml" target="_blank" style={{ float: "right" }}>
             RSS
-          </a>
+          </a> */}
           <Link href="/blog/about">About</Link> &bull;{" "}
           <Link href="/blog/tags">Tags</Link> &bull;{" "}
-          <a href="https://github.com/frontarm/create-react-blog">Source</a>
         </div>
       </footer>
     </div>

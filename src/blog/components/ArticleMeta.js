@@ -30,7 +30,12 @@ function ArticleMeta({ blogRoot, meta, readingTime }) {
           <ul className={styles.tags}>
             {meta.tags.map((tag) => (
               <li key={tag}>
-                <Link href={join(blogRoot, "tags", tag)}>{tag}</Link>
+                <Link
+                  href={join(blogRoot, "/blog/tags", tag)}
+                  className="blog-link"
+                >
+                  {tag}
+                </Link>
               </li>
             ))}
           </ul>

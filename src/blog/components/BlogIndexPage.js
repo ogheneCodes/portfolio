@@ -10,7 +10,9 @@ function BlogIndexPage({ blogRoot, pageCount, pageNumber, postRoutes }) {
   return (
     <div>
       <header>
-        <Link href="/">&larr; Back to sixtus.dev</Link>
+        <Link href="/" className="blog-link">
+          &larr; Back to sixtus.dev
+        </Link>
         <h1 className={styles.title}>
           {/* <Link href={blogRoot}>{siteMetadata.title}</Link> */}
         </h1>

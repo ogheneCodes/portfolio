@@ -20,7 +20,9 @@ function BlogPostLayout({ blogRoot }) {
       <article className={styles.container}>
         <header className={styles.header}>
           <h1 className={styles.title}>
-            <Link href={url.pathname}>{title}</Link>
+            <Link href={url.pathname} className="blog-link">
+              {title}
+            </Link>
           </h1>
           <ArticleMeta
             blogRoot={blogRoot}
@@ -39,9 +41,6 @@ function BlogPostLayout({ blogRoot }) {
           <MDXComponent />
         </MDXProvider>
         <footer className={styles.footer}>
-          <h3 className={styles.title}>
-            <Link href={blogRoot}>{siteMetadata.title}</Link>
-          </h3>
           <Bio className={styles.bio} />
           <section className={styles.links}>
             {data.previousDetails && (

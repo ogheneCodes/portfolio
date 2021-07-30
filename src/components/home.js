@@ -28,6 +28,7 @@ const Home = () => {
       <Flex flexDir="column" mr="10" w="15%">
         <Image
           src="./six.jpg"
+          alt="Sixtus Innocent"
           width="32"
           borderRadius="50%"
           border="1px"
@@ -37,7 +38,7 @@ const Home = () => {
         />
         <Flex justify="space-between">
           <Link
-            href="https://nkedin.com/in/sixtus-innocent-6b3a17a2"
+            href="https://linkedin.com/in/sixtus-innocent-6b3a17a2"
             outline="none"
             border="none"
             _hover={{ transform: "scale(1.1)" }}
@@ -45,7 +46,7 @@ const Home = () => {
             <Icon as={FaLinkedin} fontSize="3xl" />
           </Link>
           <Link
-            href="https://nkedin.com/in/sixtus-innocent-6b3a17a2"
+            href="https://twitter.com/sixtusDev"
             outline="none"
             border="none"
             _hover={{ transform: "scale(1.1)" }}
@@ -53,7 +54,7 @@ const Home = () => {
             <Icon as={FaTwitter} fontSize="3xl" />
           </Link>
           <Link
-            href="https://nkedin.com/in/sixtus-innocent-6b3a17a2"
+            href="https://www.instagram.com/sixtus.dev/"
             outline="none"
             border="none"
             _hover={{ transform: "scale(1.1)" }}
@@ -61,31 +62,46 @@ const Home = () => {
             <Icon as={FaInstagram} fontSize="3xl" />
           </Link>
           <Link
-            href="https://nkedin.com/in/sixtus-innocent-6b3a17a2"
+            href="https://github.com/sixtusDev"
             outline="none"
             border="none"
             _hover={{ transform: "scale(1.1)" }}
           >
             <Icon as={FaGithub} fontSize="3xl" />
           </Link>
+          <Link
+            href="mailto:sixtusinno@gmail.com"
+            outline="none"
+            border="none"
+            _hover={{ transform: "scale(1.1)" }}
+          >
+            <Icon as={FaEnvelope} fontSize="3xl" />
+          </Link>
         </Flex>
       </Flex>
 
       <Box w="40%" bg="cyan.400" lineHeight="7" padding="4">
         <Heading as="h1" fontSize="2xl" pb="4">
-          Hi, I'm Sixtus Innocent
+          Hi, I'm Sixtus Innocent.
         </Heading>
         <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-          mollitia est deleniti amet culpa ducimus ad vero velit, nobis,
-          reiciendis cumque modi facilis incidunt? Culpa similique animi
-          doloribus quam ad?
+          I am a Software Engineer and a Computer Science graduate with over
+          four years of experience.
         </Text>
         <Text>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          tempore nemo aperiam eaque magnam quod veniam accusantium quidem sed
-          maxime!
+          I started my programming journey back then in 2016. I specialize in
+          developing qualitative, scalable and maintanable web based
+          applications.
         </Text>
+        <Text>
+          Currently, I freelance but looking for opportunity to be a part of a
+          team.
+        </Text>
+        <Text>
+          I am highly skilled in JavaScript, Nodejs, React, MongoDB, HTML, CSS,
+          Python, Redux, and many web stacks and technologies
+        </Text>
+        <br />
         <Flex color="black" alignItems="center" justifyContent="center">
           <Link
             as={ReactLink}

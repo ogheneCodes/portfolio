@@ -3,11 +3,18 @@ import { Link } from "react-navi";
 import ArticleMeta from "./ArticleMeta";
 import styles from "./ArticleSummary.module.css";
 
-function ArticleSummary({ blogRoot, route }) {
+function ArticleSummary({ blogRoot, route, tagPage }) {
   return (
     <article className={styles.ArticleSummary}>
       <h2>
-        <Link href={blogRoot + route.url.href} className="blog-link">
+        <Link
+          href={
+            tagPage
+              ? blogRoot + "blog" + route.url.href
+              : blogRoot + route.url.href
+          }
+          className="blog-link"
+        >
           {route.title}
         </Link>
       </h2>

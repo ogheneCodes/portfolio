@@ -20,9 +20,11 @@ const Project = () => {
           PROJECTS
         </Heading>
         <Text>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et atque
-          alias nulla necessitatibus, dolores culpa modi consectetur odio
-          inventore rerum?
+          Below are some of my personal projects that I built. These projects
+          are not just conventional projects but they are projects that solve
+          real world problems. They include both the frontend and backend
+          portions of web development. I think you can call me a Full Stack
+          Developer 😊.
         </Text>
       </Box>
       <Box pb="40">
@@ -32,14 +34,24 @@ const Project = () => {
             <Text as="h2" color="cyan.400" textAlign="center" mt="4" mb="6">
               BUS SEAT RESERVATION APPLICATION
             </Text>
-            <Text as="p" textAlign="justify" mb="6">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-              atque blanditiis praesentium soluta rem repellendus distinctio
-              voluptas alias animi, pariatur accusantium natus impedit dicta
-              incidunt saepe labore quaerat a dolores repellat hic! Veritatis
-              molestias debitis quos ab velit quae, quibusdam deserunt
-              accusantium eveniet vero, expedita, doloribus pariatur itaque
-              nostrum sapiente!
+            <Text as="p" textAlign="justify">
+              I built a fully functional bus seat reservation application. The
+              applications functionalities include:
+            </Text>
+            <br />
+            <Text>&bull; Users can sign in and sign out (authentication).</Text>
+            <Text textAlign="justify">
+              &bull; Users can search for available trip schedules based on
+              their departure location, arrival location, and departure date.
+            </Text>
+            <Text textAlign="justify">
+              &bull; Users can book a ticket by selecting number of passengers
+              (child or adult), and then choose their desired seat numbers and
+              then book and pay for their ticket.
+            </Text>
+            <Text mb="6" textAlign="justify">
+              &bull; Users receives email containing their receipt of payment,
+              and their travel details.
             </Text>
             <Flex justify="space-between">
               <Link
@@ -67,14 +79,18 @@ const Project = () => {
             <Text as="h2" color="cyan.400" textAlign="center" mt="4" mb="6">
               ONLINE TEST AND EXAM TAKING APPLICATION
             </Text>
-            <Text as="p" textAlign="justify" mb="6">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
-              atque blanditiis praesentium soluta rem repellendus distinctio
-              voluptas alias animi, pariatur accusantium natus impedit dicta
-              incidunt saepe labore quaerat a dolores repellat hic! Veritatis
-              molestias debitis quos ab velit quae, quibusdam deserunt
-              accusantium eveniet vero, expedita, doloribus pariatur itaque
-              nostrum sapiente!
+            <Text as="p" textAlign="justify">
+              Testing students using only the multiple choice question type in
+              Computer Based Testing is not the efficient method because it
+              breeds more room for guess work. I now came up with a solution by
+              building a CBT app that offers a two range of question types which
+              are Free Text Area (fill in the blanks) and muiltiple choice
+              question type.
+            </Text>
+            <br />
+            <Text mb="6" textAlign="justify">
+              This app enables the examiner to set questions that can include
+              both multiple choice and free text area question type.
             </Text>
             <Flex justify="space-between">
               <Link

@@ -99,8 +99,9 @@ const Home = () => {
         </Text>
         <Text>
           I am highly skilled in JavaScript, Nodejs, React, MongoDB, HTML, CSS,
-          Python, Redux, and many web stacks and technologies
+          Python, Redux, and many web stacks and technologies.
         </Text>
+        <Text>Finally I love to code. 👨‍💻👨‍💻👨‍💻</Text>
         <br />
         <Flex color="black" alignItems="center" justifyContent="center">
           <Link

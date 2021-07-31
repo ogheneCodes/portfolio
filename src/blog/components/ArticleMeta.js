@@ -4,7 +4,7 @@ import { Link } from "react-navi";
 import { formatDate } from "../utils/formats";
 import styles from "./ArticleMeta.module.css";
 
-function ArticleMeta({ blogRoot, meta, readingTime }) {
+function ArticleMeta({ blogRoot, meta, readingTime, tagPage }) {
   let readingTimeElement;
   if (readingTime) {
     let minutes = Math.max(Math.round(readingTime.minutes), 1);
@@ -31,7 +31,11 @@ function ArticleMeta({ blogRoot, meta, readingTime }) {
             {meta.tags.map((tag) => (
               <li key={tag}>
                 <Link
-                  href={join(blogRoot, "/blog/tags", tag)}
+                  href={
+                    tagPage
+                      ? join(blogRoot, "blog/tags", tag)
+                      : join(blogRoot, "tags", tag)
+                  }
                   className="blog-link"
                 >
                   {tag}

@@ -18,7 +18,7 @@ function ArticleSummary({ blogRoot, route, tagPage }) {
           {route.title}
         </Link>
       </h2>
-      <ArticleMeta blogRoot={blogRoot} meta={route.data} />
+      <ArticleMeta blogRoot={blogRoot} meta={route.data} tagPage={tagPage} />
       <p>{route.data.spoiler}</p>
     </article>
   );

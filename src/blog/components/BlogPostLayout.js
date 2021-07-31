@@ -26,6 +26,7 @@ function BlogPostLayout({ blogRoot }) {
           </h1>
           <ArticleMeta
             blogRoot={blogRoot}
+            tagPage={true}
             meta={data}
             readingTime={readingTime}
           />

@@ -17,7 +17,11 @@ function Bio(props) {
     >
       <img src={photoURL} alt="Me" />
       <p>
-        <a href="https://twitter.com/james_k_nelson/" className="blog-link">
+        <a
+          href="https://linkedin.com/in/sixtus-innocent-6b3a17a2"
+          className="blog-link"
+          target="_blank"
+        >
           Sixtus Innocent
         </a>{" "}
         is a Software Engineer who lives in Nigeria with over four years of
@@ -26,21 +30,34 @@ function Bio(props) {
         <br />
         <br />
         <a
-          href="https://facebook.github.io/create-react-app/"
+          href="https://github.com/sixtusDev"
+          target="_blank"
           className="blog-link"
         >
           Github
         </a>{" "}
         &bull;{" "}
-        <a href="https://mdxjs.com/" className="blog-link">
+        <a
+          href="https://linkedin.com/in/sixtus-innocent-6b3a17a2"
+          target="_blank"
+          className="blog-link"
+        >
           LinkedIn
         </a>{" "}
         &bull;{" "}
-        <a href="https://frontarm.com/navi/" className="blog-link">
+        <a
+          href="https://www.instagram.com/sixtus.dev/"
+          target="_blank"
+          className="blog-link"
+        >
           Instagram
         </a>{" "}
         &bull;{" "}
-        <a href="https://frontarm.com/navi/" className="blog-link">
+        <a
+          href="https://twitter.com/sixtusDev"
+          target="_blank"
+          className="blog-link"
+        >
           Twitter
         </a>
       </p>

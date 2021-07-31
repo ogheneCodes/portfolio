@@ -34,22 +34,22 @@ const Project = () => {
             <Text as="h2" color="cyan.400" textAlign="center" mt="4" mb="6">
               BUS SEAT RESERVATION APPLICATION
             </Text>
-            <Text as="p" textAlign="justify">
+            <Text as="p">
               I built a fully functional bus seat reservation application. The
               applications functionalities include:
             </Text>
             <br />
             <Text>&bull; Users can sign in and sign out (authentication).</Text>
-            <Text textAlign="justify">
+            <Text>
               &bull; Users can search for available trip schedules based on
               their departure location, arrival location, and departure date.
             </Text>
-            <Text textAlign="justify">
+            <Text>
               &bull; Users can book a ticket by selecting number of passengers
               (child or adult), and then choose their desired seat numbers and
               then book and pay for their ticket.
             </Text>
-            <Text mb="6" textAlign="justify">
+            <Text mb="6">
               &bull; Users receives email containing their receipt of payment,
               and their travel details.
             </Text>
@@ -79,7 +79,7 @@ const Project = () => {
             <Text as="h2" color="cyan.400" textAlign="center" mt="4" mb="6">
               ONLINE TEST AND EXAM TAKING APPLICATION
             </Text>
-            <Text as="p" textAlign="justify">
+            <Text as="p">
               Testing students using only the multiple choice question type in
               Computer Based Testing is not the efficient method because it
               breeds more room for guess work. I now came up with a solution by
@@ -88,7 +88,7 @@ const Project = () => {
               question type.
             </Text>
             <br />
-            <Text mb="6" textAlign="justify">
+            <Text mb="6">
               This app enables the examiner to set questions that can include
               both multiple choice and free text area question type.
             </Text>

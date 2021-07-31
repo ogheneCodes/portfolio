@@ -16,27 +16,35 @@ const Home = () => {
     backgroundColor: "black",
   };
   return (
-    <Box
-      d="flex"
+    <Flex
+      flexDir={{ base: "column", lg: "row" }}
+      pb={{ base: "10", lg: "0" }}
       color="white"
       w="100%"
-      h="100vh"
+      minH="100vh"
       bgGradient="linear(to-tr, cyan.400, cyan.500, cyan.900)"
       alignItems="center"
       justifyContent="center"
     >
-      <Flex flexDir="column" mr="10" w="15%">
+      <Flex
+        flexDir="column"
+        mr={{ lg: "10" }}
+        maxW={{ base: "100%" }}
+        justifyContent="center"
+        alignItems="center"
+      >
         <Image
           src="./six.jpg"
           alt="Sixtus Innocent"
-          width="32"
+          maxW="36"
           borderRadius="50%"
           border="1px"
           borderColor="black"
           mb="4"
+          mt={{ base: "8", lg: "0" }}
           alignSelf="center"
         />
-        <Flex justify="space-between">
+        <Flex justify="space-between" w="56" mb={{ base: "8", lg: "0" }}>
           <Link
             href="https://linkedin.com/in/sixtus-innocent-6b3a17a2"
             outline="none"
@@ -80,7 +88,12 @@ const Home = () => {
         </Flex>
       </Flex>
 
-      <Box w="40%" bg="cyan.400" lineHeight="7" padding="4">
+      <Box
+        maxW={{ base: "95%", md: "70%", lg: "40%" }}
+        bg="cyan.400"
+        lineHeight="7"
+        padding="4"
+      >
         <Heading as="h1" fontSize="2xl" pb="4">
           Hi, I'm Sixtus Innocent.
         </Heading>
@@ -129,7 +142,7 @@ const Home = () => {
           </Link>
         </Flex>
       </Box>
-    </Box>
+    </Flex>
   );
 };
 

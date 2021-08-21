@@ -55,7 +55,7 @@ const Project = () => {
             </Text>
             <Flex justify="space-between">
               <Link
-                href="https://bus-seat-reservation.herokuapp.com"
+                href="https://bus-seat-reservation-app.netlify.app/"
                 textDecor="underline"
                 _hover={{ color: "cyan.400" }}
                 isExternal
@@ -94,7 +94,7 @@ const Project = () => {
             </Text>
             <Flex justify="space-between">
               <Link
-                href="http://online-test-taking-app.herokuapp.com/"
+                href="https://test-taking-app.netlify.app/"
                 textDecor="underline"
                 _hover={{ color: "cyan.400" }}
                 isExternal

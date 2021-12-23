@@ -21,10 +21,8 @@ const Project = () => {
         </Heading>
         <Text>
           Below are some of my personal projects that I built. These projects
-          are not just conventional projects but they are projects that solve
-          real world problems. They include both the frontend and backend
-          portions of web development. I think you can call me a Full Stack
-          Developer 😊.
+          are not just conventional projects but they are projects that that can be replicated to 
+          solve real world problems. 😊.
         </Text>
       </Box>
       <Box pb="40">
